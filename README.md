@@ -13,7 +13,7 @@ cyste.setItem("english_salutation", "Hello")
 cyste.setItem("french_salutation", "Salut")
 
 cyste.items.filter(item => item[0].includes("salutation")) // 3 records
-cyste.items.find(item => item[0].includes("salutation")) // 1 records ["german_salutation", "Morgen"]
+cyste.items.find(item => item[0].includes("salutation")) // 1 record ["german_salutation", "Morgen"]
 
 cyste.items.forEach(item => console.log("key:", item[0], "value:", item[1]))
 ```
