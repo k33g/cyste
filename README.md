@@ -17,3 +17,7 @@ cyste.items.find(item => item[0].includes("salutation")) // 1 record ["german_sa
 
 cyste.items.forEach(item => console.log("key:", item[0], "value:", item[1]))
 ```
+
+## TODO
+
+- more examples
